@@ -2,7 +2,7 @@
 <template>
   <div class="nav-bar">
     <div class="nav">
-      <div class="logo">Paper trade</div>
+      <div class="logo">Paper Trade</div>
       <ul>
         <li>Home</li>
         <li>Stands</li>
@@ -10,8 +10,8 @@
       </ul>
     </div>
     <div class="nav" style="gap: 10px">
-      <div class="nav-button">Sign up</div>
       <div class="nav-button">Log in</div>
+      <div class="nav-button solid">Sign up</div>
     </div>
   </div>
 </template>
@@ -40,6 +40,14 @@ ul {
   color: white;
 }
 .nav-button {
-  color: white;
+  color: lightblue;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 5px 16px;
+}
+.solid {
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  color: black;
 }
 </style>
